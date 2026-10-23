@@ -5,8 +5,9 @@ import math, shutil, html
 ROOT = Path(__file__).resolve().parents[1]
 A = ROOT / 'assets'
 A.mkdir(exist_ok=True)
-SOURCE = Path('C:/Users/吴海睿/.codex/generated_images/01a16857-42b0-7fe3-b687-4197436087bc/exec-d060d82e-3e82-4df0-bef6-6fbd0f68cf17.png')
-shutil.copy2(SOURCE, A / 'gpt-dragon.png')
+SOURCE = A / 'gpt-dragon.png'
+if not SOURCE.is_file():
+    raise FileNotFoundError('Place the approved transparent mascot at assets/gpt-dragon.png')
 W,H=1600,720
 im=Image.new('RGB',(W,H)); px=im.load()
 for y in range(H):
