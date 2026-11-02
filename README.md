@@ -11,6 +11,11 @@
 <a href="https://github.com/libra-sys/model-tier-advisor"><img src="assets/project-3.svg" width="49%" alt="模型档位提示：轻量 Agent 规则 · 提醒后继续工作。打开 model-tier-advisor" /></a>
 <a href="https://github.com/libra-sys/contest-ppt-generator"><img src="assets/project-4.svg" width="49%" alt="可编辑演示稿流程：材料核对 · 视觉确认 · 编辑与检查。打开 contest-ppt-generator" /></a>
 
+- [asset-slicer](https://github.com/libra-sys/asset-slicer)：本地素材处理。
+- [docx-to-kaoshibao](https://github.com/libra-sys/docx-to-kaoshibao)：题目整理与 Excel 输出。
+- [model-tier-advisor](https://github.com/libra-sys/model-tier-advisor)：模型档位提醒规则。
+- [contest-ppt-generator](https://github.com/libra-sys/contest-ppt-generator)：可编辑演示稿制作流程。
+
 > 切图工具按透明区域或已知网格处理素材，不做语义识别；题库脚本接收 JSON，Word/OCR 提取和校对属于前置流程。模型规则只作提醒，演示稿项目提供制作流程。具体依赖、限制与用法请看各仓库说明。
 
 另外可以看看：[截图逆向工程](https://github.com/libra-sys/screenshot-reverse-engineer) · [校园百事通](https://github.com/libra-sys/fjlzy-campus-baishitong)
