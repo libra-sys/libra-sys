@@ -17,7 +17,6 @@
 
 ## 校园与参赛系列
 
-- [fjlzy-campus-baishitong](https://github.com/libra-sys/fjlzy-campus-baishitong) — 福建林业职业技术学院—校园百事通 Skill（宝藏母校Skill大赛参赛作品）：学校概况、新生指南、选课攻略、校园打卡、冷知识库、官方申请表模板，帮助新生快速了解学校、融入校园生活。
 - [campus-skill-factory](https://github.com/libra-sys/campus-skill-factory) — 母校百事通 Skill 工厂：以成熟架构为模板，提供母校数据即可快速生成任意学校的校园百事通 Skill（宝藏母校Skill大赛作品）
 - [fjlzy-memory-forge](https://github.com/libra-sys/fjlzy-memory-forge) — 林职院记忆工坊 Skill：校园梗图 + 毕业纪念册 + 全班人设卡，四层降级链保障任何环境可用
 - [fjlzy-campus-quest](https://github.com/libra-sys/fjlzy-campus-quest) — 林职院校园奇遇记 — 文字探险×食堂抽卡×动漫NPC互动的校园游戏 Skill
@@ -49,6 +48,10 @@
 - [smart-glasses-management](https://github.com/libra-sys/smart-glasses-management) — 程序
 
 - [smart-escort-dashboard](https://github.com/libra-sys/smart-escort-dashboard) — 智慧护航运营态势大屏：聚合智能眼镜设备、小程序与组件社区数据的可视化演示项目
+
+## 校内展示
+
+- [fjlzy-campus-baishitong](https://github.com/libra-sys/fjlzy-campus-baishitong) — 福建林业职业技术学院校园百事通，按作者要求用于校内展示与传播，不列入通用推广。
 
 ## 学校作业
 
