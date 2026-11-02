@@ -49,9 +49,7 @@
 - [ai-glasses-platform](https://github.com/libra-sys/ai-glasses-platform) — AI眼镜组件发布平台
 - [smart-glasses-management](https://github.com/libra-sys/smart-glasses-management) — 程序
 
-## 其他探索
-
-- [web](https://github.com/libra-sys/web) — 可视化
+- [smart-escort-dashboard](https://github.com/libra-sys/smart-escort-dashboard) — 智慧护航运营态势大屏：聚合智能眼镜设备、小程序与组件社区数据的可视化演示项目
 
 ## 学习与数据探索
 
