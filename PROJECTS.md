@@ -44,12 +44,15 @@
 
 - [MetaFix-Orchestrator](https://github.com/libra-sys/MetaFix-Orchestrator) — 端到端自动化修复代码缺陷
 - [MedLoop](https://github.com/libra-sys/MedLoop) — MedLoop — 智能导诊 + 随访 Agent
-- [FridgeChef](https://github.com/libra-sys/FridgeChef) — 智能冰箱食谱管理工具 - 基于AI的食材识别与食谱生成
 - [InfiniShow](https://github.com/libra-sys/InfiniShow) — InfiniShow — A trusted business insight engine powered by InfiniSynapse, providing traceable AI-driven business analysis for small and medium merchants.
 - [ai-glasses-platform](https://github.com/libra-sys/ai-glasses-platform) — AI眼镜组件发布平台
 - [smart-glasses-management](https://github.com/libra-sys/smart-glasses-management) — 程序
 
 - [smart-escort-dashboard](https://github.com/libra-sys/smart-escort-dashboard) — 智慧护航运营态势大屏：聚合智能眼镜设备、小程序与组件社区数据的可视化演示项目
+
+## 学校作业
+
+- [FridgeChef](https://github.com/libra-sys/FridgeChef) — AI 食谱界面作业，保留学习记录，不作为主推产品。
 
 ## 学习与数据探索
 
