@@ -1,6 +1,6 @@
 # 个人主页视觉与维护
 
-版本：1.0.0（2026-10-23）
+版本：1.1.0（2026-11-02）
 
 ## 目标
 
@@ -11,7 +11,8 @@ GitHub Profile README：黑紫液态玻璃横幅、已确认的白发 Q 版 GPT 
 - `assets/gpt-dragon.png`：本次对话生成并由用户认可的透明底角色图，属个人使用的非官方 GPT 拟人形象。
 - `assets/hero.png`：角色图与本地绘制玻璃背景合成；不是实时背景模糊。
 - `assets/project-*.svg`：可编辑的静态项目卡片；文字来自公开仓库 README。未添加能力评级、虚构统计或私有项目信息。
-- `tools/build_visuals.py`：使用 Pillow 和仓库内的 `assets/gpt-dragon.png` 重建横幅和卡片。Windows 微软雅黑字体用于中文绘制。
+- `tools/build_visuals.py`：使用 Pillow 和仓库内的 `assets/gpt-dragon.png` 重建横幅，再调用内容构建。Windows 微软雅黑字体用于中文绘制。
+- `tools/build_catalog.py`：仅更新精选项目卡片和 README；不修改已确认的龙娘角色与横幅。维护分组时同步更新 `PROJECTS.md`。
 - `README.md`：原生 HTML 图片链接，无第三方依赖。
 
 ## 验证与限制
@@ -22,4 +23,5 @@ GitHub Profile README：黑紫液态玻璃横幅、已确认的白发 Q 版 GPT 
 
 ## 更新
 
+- 1.1.0：按用途整理 42 个公开仓库，精选改为切图、题库、模型档位提示与演示稿流程；学校作业归属尚待本人确认，公开目录不作课程认定。私有仓库不列入公开页面。
 - 1.0.0：首次上线龙娘液态玻璃个人主页。

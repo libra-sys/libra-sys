@@ -42,27 +42,6 @@ for i,label in enumerate(['AI · 智能眼镜','Web · 应用','Data · 可视�
     d.text((x+20,543),label,font=font(20),fill='#d8d2ed')
 im.convert('RGB').save(A/'hero.png',optimize=True)
 
-projects=[('ai-glasses-platform','AI 眼镜组件平台','组件发布 · 分享 · AI 工具箱'),('smart-glasses-management','智能眼镜管理系统','微信小程序 · 设备管理'),('web','Web 项目','浏览项目源码'),('douban-top250-analysis','豆瓣 Top250 数据分析','电影数据 · 清洗 · 可视化')]
-for i,(slug,title,desc) in enumerate(projects,1):
-    svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="780" height="236" viewBox="0 0 780 236"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#151722"/><stop offset="1" stop-color="#292339"/></linearGradient><radialGradient id="shine"><stop stop-color="#9784d4" stop-opacity=".22"/><stop offset="1" stop-color="#9784d4" stop-opacity="0"/></radialGradient></defs><rect x="1" y="1" width="778" height="234" rx="24" fill="url(#bg)" stroke="#514761"/><ellipse cx="690" cy="205" rx="220" ry="150" fill="url(#shine)"/><g font-family="Segoe UI,Microsoft YaHei,Arial,sans-serif"><text x="32" y="43" fill="#b8a7de" font-size="16">0{i} / PROJECT</text><text x="32" y="89" fill="#f2eefa" font-size="28" font-weight="600">{title}</text><text x="32" y="131" fill="#c1b8d4" font-size="19">{desc}</text><text x="32" y="194" fill="#9d94b3" font-size="17">{slug}</text><text x="715" y="195" fill="#d0bfff" font-size="28">↗</text></g></svg>'''
-    (A/f'project-{i}.svg').write_text(svg,encoding='utf-8')
-
-readme='''<p align="center">
-  <img src="assets/hero.png" width="100%" alt="Hi, I’m why. 把想法，做成作品。黑紫液态玻璃背景与白发 Q 版龙娘。" />
-</p>
-
-<h2>精选项目 <sub>Selected projects</sub></h2>
-
-'''
-for i,(slug,title,desc) in enumerate(projects,1):
-    readme+=f'<a href="https://github.com/libra-sys/{slug}"><img src="assets/project-{i}.svg" width="49%" alt="{title}：{desc}。打开 {slug} 仓库" /></a>\n'
-readme+='''
-<p align="center">
-  <sub>探索 · 构建 · 迭代</sub><br />
-  <a href="https://github.com/libra-sys?tab=repositories">查看全部公开仓库 ↗</a>
-</p>
-
-<!-- Visual source and maintenance notes: docs/DESIGN.md -->
-'''
-(ROOT/'README.md').write_text(readme,encoding='utf-8')
-print('Built hero, transparent mascot, four SVG cards and README.')
+# Reuse the content-only builder so full visual rebuilds keep the current catalog.
+import runpy
+runpy.run_path(str(ROOT / 'tools' / 'build_catalog.py'), run_name='__main__')
